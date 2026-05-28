@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>frontend_dev_application_form</title>
+    </head>
+    <body>
+        <h1>프런트엔드 개발자 지원서</h1>
+
+        <form action="./assi2.php" method="get">
+        
+        <p>HTML, CSS, 자바스크립트의 기술을 이해하고 실무 경험이 있는 분을 찾습니다.</p>
+        <hr>
+            <h3>개인정보</h3>
+                <li>
+                    <label> 이름 <input type="text" name="user_name"></label>
+                </li>
+
+                <li>
+                    <label> 연락처 <input type="tel" name="phone_number"></label>
+                </li>
+                
+                <br>
+
+            <h3>지원분야</h3>
+                <ul>
+                    <li>
+                        <label><input type="radio" name="field" value="웹 퍼블리싱">웹 퍼블리싱</label>
+                    </li>
+                    <li>
+                        <label><input type="radio" name="field" value="웹 어플리케이션 개발">웹 어플리케이션 개발</label>
+                    </li>
+                    <li>
+                        <label><input type="radio" name="field" value="웹 개발 환경 개선">웹 개발 환경 개선</label>
+                    </li>
+                    </ul>
+
+            <h3>지원동기</h3>
+                    <textarea name="motive" cols="40" rows="5" placeholder= "본사 지원 동기를 간략히 써 주세요"></textarea>
+            <div>
+                    <input type="submit" value="접수하기">
+                    <input type="reset" value="다시쓰기">
+            </div>
+        </form>
+        </body>
+
+</html>
+             

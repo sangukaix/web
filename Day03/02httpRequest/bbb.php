@@ -10,7 +10,7 @@
     $message= $_POST['msg'];
     $brand= $_POST['brand'];
 
-    // textarea 에서의 줄바꿈은  \n (new line) 임. \
+    // textarea 에서의 줄바꿈은  \n (new line) 임. \ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
     // 웹 브라어주는 줄바꿈을 <br> 태그를 사용해야 함
     // 그래서 $message 변수안에 있는 \n을 br태그로 변환해야 함.
     // php에는 이 작업을 해주는 기능(function-함수)이 존재함
