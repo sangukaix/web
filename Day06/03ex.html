@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>css ex</title>
+
+        <style>
+
+            #header{
+                background-color: #CCCCCC;
+                text-align: center;
+                padding: 3em 0em;
+
+                background-image: url(./image/paris.jpg);
+                background-size: auto;/*기본값*/
+                background-size: contain; /*영역안에 표시될 사이즈로 축소*/
+                background-size: cover; /*창 크기에 맞춰서 조절됨*/
+                
+                color: white;
+            }
+            ul{
+                list-style: none;
+                border-top: 1px solid red;
+                border-bottom: 1px solid red;
+                padding: 10px 0;
+                text-align: center;
+            }
+
+            ul li{ /*unlist 안에 있는 list 자손들이라는 말*/
+                display: inline;
+                padding: 0 10px;
+                letter-spacing: 0.15em; /*자 간 간격*/
+            }
+            ul li a{text-decoration: none; color: black;}
+            ul li a:hover{text-decoration: underline;}
+            
+        </style>
+    </head>
+    <body>
+        
+        <div id="header">
+            <h1>Home Page</h1>
+            <p>This is my home page</p>
+        </div>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+    </body>
+</html>
