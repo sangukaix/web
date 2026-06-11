@@ -18,3 +18,5 @@ btn2.addEventListener('click', function(){
 btn2.addEventListener('click', function(){
     alert('두번쨰 이벤트 처리 함수')
 })
+
+//여러개를 등록하면 차례대로 실행됨.

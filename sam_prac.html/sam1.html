@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas element</title>
+</head>
+<body>
+    
+    <canvas id="c1" width="300" height="400" style="border: 2px solid black"></canvas>
+    <script>
+        
+        var canvas = document.getElementById('c1');
+        // 캔버스에 그림을 그리기 위해.. 그림도구를 얻어오기
+        var context = canvan.getContext('2d');
+
+        // 그림도구를 이용하여 캔버스에 글씨를 그리기
+        context.fillText('Hello', 10, 40); // 글씨의 좌화단 좌표를 지정
+        context.fillText('Hello', 0, 0);
+    </script>
+
+</body>
+</html>
